@@ -1,0 +1,575 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gabarito',sans-serif;
+}
+.header{
+    /* display: flex; */
+    padding: 10px;
+    justify-content: space-between;
+
+
+}
+/* .header__s1{
+
+    margin-top: 2px;
+    float: left;
+    top: -20px;
+} */
+.header__s1 img{
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    margin-top: 2px;
+    margin-left: 25px;
+   
+    top: -20px;
+  
+
+}
+.header__s2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    /* justify-content: space-between; */
+
+    
+
+}
+.header__s2 p{
+    padding: 5px;
+    /* justify-content: space-around; */
+    justify-content: center;
+
+}
+.header__s2 p:hover{
+    background-color: beige;
+    border-radius: 10px;
+  
+}
+.header__s3{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 0;
+    right: 0;
+    top: 15px;
+
+}
+.header__s3 img{
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+    margin-right: 3px;
+}
+h3{
+    margin-left: 10px;
+}
+h1,h2{
+    margin-left: 10px;
+}
+.vertical-line{
+    width: 0;
+    height: 15px;
+    border-left: solid black 1px;
+    margin-top: 5px;
+}
+.inr-class{
+    
+    display: flex;
+    /* background-color: beige; */
+    padding: 5px 10px;
+    border-radius: 13px;
+}
+.inr-class:hover{
+    background-color: beige;
+}
+.header__s3 button{
+    background-color:  black;
+    color: white;
+    /* border: solid black 2px; */
+    border-radius: 15px;
+    padding: 5px;
+    margin-right: 25px;
+
+}
+.subtitle{
+    text-align:  center;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 40px;
+
+}
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+   
+
+}
+.list img{
+    height: 20px;
+    width: 20px;
+}
+.input-box{
+    padding: 2px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 10px 10px 250px;
+
+}
+
+
+.input-box input{
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    background-color: transparent;
+  
+
+}
+.input-box img{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+
+
+}
+.input-box button{
+    background-color: #34e0a1;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    margin: 5px 10px 5px 10px;
+
+}
+.travel-image{
+    position: relative;
+}
+/* .travel-image img{
+    width: calc(100%-120px);
+    width: 85%;
+    height: 400px;
+    justify-content: center;
+    margin-left: 60px;
+    display: block; */
+/* } */
+.travel-image__words{
+    height: 400px;
+    width: calc(100% - 120px);
+    position: relative;
+    margin-top: 50px;
+    margin-left: 60px;
+    padding: 10px;
+    background-image: url('./Images/app-relaunch-banner-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+
+
+
+}
+.travel-image__words div{
+    position: absolute;
+    color: white;
+    bottom: 380px;
+    left: 10px;
+    margin-left: 40px;
+   
+
+   
+
+}
+.travel-image__words__buttonone{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    margin-left: 150px;
+    margin-top: -2px;
+}
+
+.travel-image__words h1{
+    color: white;
+    margin-left: 35px;
+    font-size: 50px;
+    width: 380px;
+    line-height: 1;
+}
+.travel-image__words h2{
+    color: white;
+    margin-left: 35px;
+    width: 300px;
+}
+.travel-image__words__buttontwo{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+
+.seaside{
+    margin: 25px 50px;
+}
+.seaside div{
+    margin: 5px 5px ;
+    margin-left: 10px;
+}
+.seaside-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+    
+   
+}
+.seaside-country{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 10px;
+    position: relative;
+  
+}
+.seaside-country img{
+    width: 100%;
+    display: block;
+}
+.seaside-country h2{
+    position: absolute;
+    bottom: 10px; 
+    left: 10px;
+    
+    color: white;
+
+}
+.tour-madras{
+    margin: 25px 50px;
+}
+.tour-madras div{
+    margin: 5px 5px ;
+    margin-left: 10px;
+}
+.tour-madras__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+
+}
+.tour-madras__view{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 10px;
+
+} 
+.tour-madras__view img{
+    width: 100%;
+    display: block;
+
+}
+.tour-madras__view h3,p{
+    margin-top: 5px;
+}
+.explore{
+    margin: 25px 50px;
+}
+.explore__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+
+}
+.explore__place{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 10px;
+
+}
+.explore__place img{
+    width: 100%;
+    border-radius: 15px;
+}
+.dream-trip{
+    margin: 25px 50px;
+
+}
+.dream-trip div{
+    margin: 5px 5px ;
+
+}
+.dream-trip__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+
+}
+.dream-trip__view{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 10px;
+    position: relative;
+
+
+}
+.dream-trip__view img{
+    width: 100%;
+    display: block;
+}
+.dream-trip__view h2{
+    position: absolute;
+    bottom: 10px; 
+    left: 10px;
+    
+    color: white;
+}
+.destination, .destination-two{
+    margin: 25px 50px;
+    
+
+}
+.destination-two div{
+    margin: 5px 5px;
+    margin-left: 10px;
+}
+.destination__container,.destination-two__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+
+}
+.destination__view,.destination-two__view{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 10px;
+    position: relative;
+}
+.destination__view img, .destination-two__view img{
+    width: 100%;
+    display: block;
+
+}
+.destination__view h2, .destination-two__view h2{
+    position: absolute;
+    bottom: 10px; 
+    left: 10px;
+    
+    color: white;
+
+}
+.destination-two div{
+    margin: 5px 5px ;
+
+}
+.bg-box {
+    
+    background: lightgray;
+    padding: 20px;
+    margin: auto; /* Centers the box */
+   position: relative;
+    width: 85%;
+    height: 300px;
+    display: flex;
+    margin-left: 70px;
+
+}
+
+.caption-image{
+    position: relative;
+    
+}
+.caption-image__image{
+    width: 50%;
+   
+    height: 100%;
+    margin: 10px 5px 20px 5px;
+   
+    
+
+
+}
+.caption-image__image img{
+    width: 100%;
+    height: 100%;
+   
+}
+.caption-image__offer{
+    width: 50%;
+    position: relative;
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+
+
+    
+
+}
+
+.caption-image__tripicon img{
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.caption-image__offer div{
+    width: 75%;
+    margin-left: 12.5%;
+    margin-top: 10px;
+}
+.caption-image__offer button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.home-rentals{
+    margin: 25px 50px;
+
+}
+
+.caption-image__offer .caption-image__tripicon{
+    position: relative;
+    display: flex;
+   
+}
+
+.home-rentals__ h1{
+    padding: 5px;
+}
+.home-rentals__  h3{
+   
+    display: flex;
+  
+
+}
+.home-rentals__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+
+}
+.home-rentals__view{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 10px;
+    position: relative;
+
+
+}
+.home-rentals__view img{
+    width: 100%;
+    display: block;
+}
+.home-rentals__view h3{
+    margin-left: -2px;
+}
+.footer{
+    padding: 30px;
+    background-color: lightgray;
+    color: black;
+}
+.footer__one{
+    display: flex;
+    gap: 10px;
+}
+.footer__one  p{
+    margin: 10px
+}
+.footer__one__s1{
+    width: 25%;
+}
+.footer__one__s3, .footer__one__s4{
+    justify-content: space-between;
+}
+.footer__one__s4{
+    margin: 3px 2px 2px 180px;
+}
+.footer__two{
+    /* margin: 20px; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__two__s1{
+    display: flex;
+}
+ 
+.footer__two__s1 div{
+    font-size: 12px;
+}
+.footer__two__s1 img{
+    width: 32px;
+    height: 32px;
+}
+.footer__two__s2{
+    display: flex;
+    gap: 15px;
+    margin-left: 40px;
+    margin-top: -15px;
+}
+
+.footer__two__s2 div{
+   margin: 3px;
+   gap: 5px;
+}
+
+.dropdown{
+    position: relative;
+    display: flex;
+    gap: 5px;
+}
+
+.dropdown__content{
+    border-radius: 10px;
+    padding: 5px;
+    width: 150px;
+}
+.dropdown__box{
+   font-weight: bold;
+}
+.social-icons{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+/* media query */
+@media screen and (max-width: 800px) {
+    body{
+        font-size: 10px;
+    }
+    
+}
+
+
